@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import profilePic from "../assets/profile.jpg";
+import profilePic from "../assets/profilePic.png";
 import { HERO_CONTENT } from "../constants";
 
 const Hero = () => {
@@ -31,7 +31,7 @@ const Hero = () => {
               animate="visible"
               className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-3xl tracking-tight text-transparent"
             >
-              Front End Developer{" "}
+              Web Developer{" "}
             </motion.span>
             <motion.p
               variants={container(1)}
@@ -44,13 +44,15 @@ const Hero = () => {
             </motion.p>
           </div>
         </div>
-        <div className="w-full lg:w-1/2 lg:p-8 ">
+        <div className="w-full lg:w-1/2 lg:pt-16 ">
           <div className="flex justify-center">
             <motion.img
               initial={{ x: 100, opacity: 0 }}
               animate={{ x: 0, opacity: 1 }}
               transition={{ duration: 1, delay: 1.2 }}
               src={profilePic}
+              width={300}
+              className=""
               alt="Amit Sinha"
             />
           </div>
