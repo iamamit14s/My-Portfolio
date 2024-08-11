@@ -19,7 +19,7 @@ const Projects = () => {
               whileInView={{ opacity: 1, x: 0 }}
               initial={{ opacity: 0, x: -100 }}
               transition={{ duration: 1 }}
-              className="w-full p-2 mt-2 lg:w-1/4"
+              className="w-full mt-12 lg:w-1/4"
             >
               <img
                 src={project.image}
@@ -33,7 +33,7 @@ const Projects = () => {
               whileInView={{ opacity: 1, x: 0 }}
               initial={{ opacity: 0, x: 100 }}
               transition={{ duration: 1 }}
-              className="w-full max-w-xl lg:w-3/4"
+              className="w-full mb-8 max-w-xl lg:w-3/4"
             >
               <h6 className="mb-2 font-semibold">{project.title}</h6>
               <a
@@ -43,7 +43,18 @@ const Projects = () => {
               >
                 🔗
               </a>
-              <p className="mb-4 text-neutral-400 ">{project.description}</p>
+              <p className="mb-4 text-neutral-400 ">
+                {project.description.map((desc, index) => (
+                  <ul
+                    className="font-montserrat text-slate-200 text-semibold leading-2 mt-4"
+                    key={index}
+                  >
+                    <li className="rounded-lg backdrop-blur-lg z-40 bg-slate-800 p-2 pl-4">
+                      {desc}
+                    </li>
+                  </ul>
+                ))}
+              </p>
 
               {project.technologies.map((tech, index) => (
                 <span

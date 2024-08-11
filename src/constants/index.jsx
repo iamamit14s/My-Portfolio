@@ -26,8 +26,8 @@ export const PROJECTS = [
     title: "E-Commerce Website",
     link: "https://insta-shop-ochre.vercel.app/",
     image: project1,
-    description:
-      "Built a scalable and responsive E-commerce website using React, leveraging Redux Toolkit for state management and Context API to streamline props handling, enhancing the user interface and experience. Integrated Firebase for backend services, including authentication, real-time database, admin panel, ensuring seamless and secure operations.",
+    description:[
+      "Built a scalable and responsive E-commerce website using React, leveraging Redux Toolkit for state management and Context API to streamline props handling, enhancing the user interface and experience.","Integrated Firebase for backend services, including authentication, real-time database, admin panel, ensuring seamless and secure operations."],
 
     technologies: [
       "HTML",
@@ -42,8 +42,8 @@ export const PROJECTS = [
     title: "Url Shortner",
     link: "https://url-shortner-dusky-eight.vercel.app/",
     image: project2,
-    description:
-      "Developed a responsive URL-shortening website using React and Tailwind CSS. Allows users to create short links instead of random long strings.Integrated Firebase for secure real-time database management and implemented QR code generation for easy sharing of shortened URLs",
+    description:[
+      "Developed a responsive URL-shortening website using React and Tailwind CSS. Allows users to create short links instead of random long strings.","Integrated Firebase for secure real-time database management and implemented QR code generation for easy sharing of shortened URLs"],
     technologies: ["HTML", "Tailwind CSS", "React", "Firebase"],
   },
   {
@@ -51,7 +51,7 @@ export const PROJECTS = [
     link: "https://nike-demo-blush.vercel.app/",
     image: project3,
     description:
-      "Developed a responsive and visually appealing demo Nike website using React and Tailwind CSS, focused on enhancing user experience with a sleek and intuitive interface.",
+      ["Developed a responsive and visually appealing demo Nike website using React and Tailwind CSS, focused on enhancing user experience with a sleek and intuitive interface."],
     technologies: ["HTML", " Tailwind CSS", "React"],
   },
   {
@@ -59,7 +59,7 @@ export const PROJECTS = [
     image: project4,
     link: "https://social-media-project-pearl.vercel.app/",
     description:
-      "A platform for creating and publishing blog posts, with features like total number of posts reactions, Hashtags and user profiles.",
+      ["A platform for creating and publishing blog posts, with features like total number of posts reactions, Hashtags and user profiles."],
     technologies: ["HTML","REACT JS", " CSS", "Bootstrap", "Dummy Json Api"],
   },
 ];
