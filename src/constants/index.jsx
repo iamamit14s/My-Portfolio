@@ -65,7 +65,7 @@ export const PROJECTS = [
 ];
 
 export const CONTACT = {
-  address: "Jehanabad, Bihar ",
+  address: " Noida, India",
   phoneNo: "+918340415248 ",
   email: "amit.sinha4t@gmail.com",
 };
