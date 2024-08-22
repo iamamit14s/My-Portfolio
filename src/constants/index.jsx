@@ -13,8 +13,8 @@ export const EXPERIENCES = [
     project: "Health and Benefits Project",
     company: " WIPRO",
     description: ['My responsbility was to implement a user-friendly health landing page using HTML, CSS, and JavaScript, featuring enrollment processes for medical, dental, vision, and other health plans.',
-      'Additionally, I implemented a qualified life event page using HTML, CSS, and JavaScript. Handled events like birth/adoption, marriage, and divorce, and routed users to seamlessly select health plans.',
-      'I integrated functionality for selecting health insurance providers and managing plan options based on duration, pricing, and dependent coverage, ensuring successful enrollment for all participants.'
+      'Additionally, I implemented a qualified life event page using HTML, CSS, and JavaScript. Integrated APIs to dynamically manage the enrollment processes for medical, dental, vision, and other health plans.',
+      'Achieved a 25% increase in user enrollment completion rates by streamlining the process of selecting health insurance providers, managing plan options based on duration, pricing, and dependent coverage.'
     ],
       
     technologies: ["Javascript", "HTML","CSS"],
