@@ -17,7 +17,6 @@ export const EXPERIENCES = [
       'Achieved a 25% increase in user enrollment completion rates by streamlining the process of selecting health insurance providers, managing plan options based on duration, pricing, and dependent coverage.',
       'Achieved a 25% increase in user enrollment completion rates by optimising the process of selecting health insurance providers and managing plan options based on duration, pricing, and dependent coverage.',
       'Integrated CI/CD pipelines using tools like Jenkins to automate the build, testing, and deployment processes. I incorporated Jest for testing and debugging which drastically decreased application errors by 40% .',
-      'Collaborated with cross-functional teams —including UX/UI designers , backend developers , and database administrators —to ensure seamless integration of the frontend with the backend and databases.'
     ],
       
     technologies: ["ReactJs", "Javascript", "Redux Toolkit","RESTful APIs","Jenkins", "HTML","CSS"],
