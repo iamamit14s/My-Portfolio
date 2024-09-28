@@ -12,12 +12,15 @@ export const EXPERIENCES = [
     year: "02/2022 - 05/2024",
     project: "Health and Benefits Project",
     company: " WIPRO",
-    description: ['My responsbility was to implement a user-friendly health landing page using HTML, CSS, and JavaScript, featuring enrollment processes for medical, dental, vision, and other health plans.',
-      'Additionally, I implemented a qualified life event page using HTML, CSS, and JavaScript. Integrated APIs to dynamically manage the enrollment processes for medical, dental, vision, and other health plans.',
-      'Achieved a 25% increase in user enrollment completion rates by streamlining the process of selecting health insurance providers, managing plan options based on duration, pricing, and dependent coverage.'
+    description: ['My responsibility was to implement a user-friendly health landing website using ReactJs , HTML and CSS featuring dynamic enrollment processes for health plans. I used Redux Toolkit for efficient state management across different user interactions, ensuring a seamless and responsive user experience across multiple clients.',
+      'Additionally, I implemented a Qualified Life Event Website using React, Redux, and RESTful API integration to dynamically manage enrollment options based on significant life events across multiple clients, reducing load times by 30% through optimized API calls and efficient state management.',
+      'Achieved a 25% increase in user enrollment completion rates by streamlining the process of selecting health insurance providers, managing plan options based on duration, pricing, and dependent coverage.',
+      'Achieved a 25% increase in user enrollment completion rates by optimising the process of selecting health insurance providers and managing plan options based on duration, pricing, and dependent coverage.',
+      'Integrated CI/CD pipelines using tools like Jenkins to automate the build, testing, and deployment processes. I incorporated Jest for testing and debugging which drastically decreased application errors by 40% .',
+      'Collaborated with cross-functional teams —including UX/UI designers , backend developers , and database administrators —to ensure seamless integration of the frontend with the backend and databases.'
     ],
       
-    technologies: ["Javascript", "HTML","CSS"],
+    technologies: ["ReactJs", "Javascript", "Redux Toolkit","RESTful APIs","Jenkins", "HTML","CSS"],
   },
 ];
 
